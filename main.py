@@ -14,7 +14,7 @@ if __name__ == '__main__':
     print(flatten([5, [4, [3, 2]], 1]))
     print('=======')
     print(flatten(["A", [[[["B"]]]], "C"]))
-    print('=======')
+    print('=======')gti 
     print(flatten([["L", "M", "N"], ["O", ["P", "Q", ["R", ["S", ["T", "U"]]]]], "V", ["W", ["X", ["Y", ["Z"]]]]]))
     print('=======')
     print(flatten([["red", ["blue", ["green", ["yellow", ["purple"]]]]], "orange", ["pink", ["brown"]]]))
