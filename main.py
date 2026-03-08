@@ -1,8 +1,12 @@
 def flatten(arr):
+    # Create empty array
     arr_flat = []
+    # for each element in the array
     for item in arr:
+        # if element is an array then flatten and add to the flat array
         if isinstance(item, list):
             arr_flat += flatten(item)
+        # else add element to the flat array
         else:
             arr_flat.append(item)
 
